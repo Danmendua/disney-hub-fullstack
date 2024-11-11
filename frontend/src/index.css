@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #131520;
+
+}
+
+@media (forced-colors: active) {
+  body {
+    background-color: Window;
+    color: WindowText;
+  }
+
+  a {
+    color: LinkText;
+  }
+}

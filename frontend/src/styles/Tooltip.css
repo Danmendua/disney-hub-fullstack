@@ -1,0 +1,4 @@
+.clip-bottom {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  z-index: 30;
+}
