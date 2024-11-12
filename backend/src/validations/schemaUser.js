@@ -11,7 +11,30 @@ const userBodySchema = joi.object({
   email: joi
     .string()
     .trim()
-    .email({ minDomainSegments: 2, tlds: { allow: ["com", "net", "br"] } })
+    .email({
+      minDomainSegments: 2,
+      tlds: {
+        allow: [
+          "com",
+          "net",
+          "org",
+          "edu",
+          "gov",
+          "br",
+          "us",
+          "uk",
+          "de",
+          "fr",
+          "es",
+          "me",
+          "co",
+          "io",
+          "app",
+          "tech",
+          "dev",
+        ],
+      },
+    })
     .required()
     .min(5)
     .max(80)
