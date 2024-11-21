@@ -33,9 +33,9 @@ Este projeto é uma aplicação de streaming onde usuários podem se registrar, 
 
 ---
 
-## 🔧 Configuração do Backend
+### Configuração do Backend
 
-### Instalação de Dependências
+### 🔧 Instalação de Dependências
 
 Para instalar as dependências do backend, execute o comando:
 
@@ -158,9 +158,9 @@ O backend fornece os seguintes endpoints:
 
 ---
 
-## 🎨 Configuração do Frontend
+### Configuração do Frontend
 
-### Instalação de Dependências
+### 🎨 Instalação de Dependências
 
 Para instalar as dependências do frontend, execute o comando:
 
@@ -182,9 +182,9 @@ VITE_SLIDER_BASE_IMG_URL=
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
-### Backend
+### 🛠️ Backend
 
 #### Frameworks
 
@@ -202,7 +202,7 @@ VITE_SLIDER_BASE_IMG_URL=
 - **Winston** - Sistema de logs para registrar erros e dados relevantes, facilitando monitoramento e manutenção.
 - **Mailgun** - Serviço de envio de e-mails para verificação e recuperação de conta.
 
-### Frontend
+### 🛠️ Frontend
 
 #### Frameworks
 
@@ -218,9 +218,9 @@ VITE_SLIDER_BASE_IMG_URL=
 - **React Hot Toast** - Biblioteca para notificações toast de maneira simples e customizável em React.
 - **Framer Motion** - Biblioteca para animações avançadas e interações em aplicações React.
 
-## ⚙️ Executando o Projeto
+### Executando o Projeto
 
-Para iniciar o projeto em modo de desenvolvimento:
+⚙️ Para iniciar o projeto em modo de desenvolvimento:
 
 1. **Backend**: No diretório do backend, execute:
 
@@ -245,6 +245,6 @@ npm run start
 
 ---
 
-## 📬 Contato
+### Contato
 
 Desenvolvido por [Daniel Mendes Duarte](https://www.linkedin.com/in/danmendesd/ "Daniel Mendes Duarte").

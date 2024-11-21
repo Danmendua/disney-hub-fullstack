@@ -81,7 +81,7 @@ const Login = () => {
                 {error}
               </p>
             )}
-            <label className="flex justify-end select-none">
+            <div className="flex justify-end select-none">
               <button
                 type="button"
                 onClick={() => navigate("/auth/forgot-password")}
@@ -89,7 +89,7 @@ const Login = () => {
               >
                 <span>Esqueci minha senha</span>
               </button>
-            </label>
+            </div>
 
             <div className="flex items-start select-none">
               <div className="flex items-center h-5">
