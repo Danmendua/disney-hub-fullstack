@@ -44,9 +44,10 @@ cron.schedule("5 0 * * *", async () => {
 
     if (usersToDelete.length > 0) {
       const deletePromises = usersToDelete.map(async (user) => {
-        const { nome, email } = user;
+        const { id, nome, email } = user;
         logger.info(`Usuário inativo: ${nome}, ${email}`);
-        await knex("users").where("id", user.id).del();
+        await knex("favoritos").where("user_id", id).del();
+        await knex("users").where({ id }).del();
         await sendInactiveAccountDel(nome, email);
       });
       await Promise.all(deletePromises);

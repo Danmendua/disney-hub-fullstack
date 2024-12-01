@@ -5,7 +5,6 @@ const {
   tmdbGetVideo,
 } = require("../connections/tmdb");
 const endpointTrendingSlider = "&vote_average.gte&with_watch_providers=337";
-const endpointTrendingGenres = "&with_watch_providers=337&with_genres=";
 const logger = require("../utils/logger");
 
 const getTrendingSlider = async (req, res) => {
@@ -143,6 +142,7 @@ const getFavorites = async (req, res) => {
 
 const getTrailer = async (req, res) => {
   const { id } = req.params;
+
   try {
     const trailer = await tmdbGetVideo(id);
     res.status(200).json(trailer.data);
